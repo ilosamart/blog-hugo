@@ -1,7 +1,7 @@
 ---
 title: Yet A New Blog
 # author: Open Source
-date: '2019-12-02'
+date: '2019-12-01'
 categories:
   - code
 tags:
