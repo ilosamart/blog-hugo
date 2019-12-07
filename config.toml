@@ -26,7 +26,7 @@ description = ""
 title404 = "Eita, tem nada aqui, amigão!"
 
 [params.assets]
-favicon = "favicon.ico"
+favicon = "images/favicon.ico"
 customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
@@ -39,8 +39,8 @@ suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "02/12/2006"
-listDateFormat = "2006/01/02"
+dateFormat = "2006-01-02"
+listDateFormat = "2006-01-02"
 archiveDateFormat = "02/01"
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideEntryMeta = ["page"] # boolean / array of sections
@@ -57,7 +57,7 @@ enable = true
 [params.widgets]
 header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-sidebar = ["about", "recent_posts", "sidebar_menu","taxonomy_cloud"]
+sidebar = ["about", "recent_posts", "sidebar_menu", "taxonomy_cloud"]
 footer = ["social_menu"]
 
 [params.opengraph.twitter]
@@ -114,12 +114,7 @@ page = "/:slug/"
 hrefTargetBlank = true
 
 [languages]
-# edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 2
 [languages.pt]
-lang = "pt-BR"
+lang = "pt"
 languageName = "Português"
 weight = 1
