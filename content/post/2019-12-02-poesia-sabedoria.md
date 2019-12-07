@@ -1,6 +1,6 @@
 ---
 title: Sabedoria
-# author: Open Source
+author: ilosamart
 date: '2019-12-02'
 categories:
   - poesia

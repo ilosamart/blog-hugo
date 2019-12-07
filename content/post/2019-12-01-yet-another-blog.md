@@ -1,6 +1,6 @@
 ---
 title: Yet A New Blog
-# author: Open Source
+author: ilosamart
 date: '2019-12-01'
 categories:
   - code

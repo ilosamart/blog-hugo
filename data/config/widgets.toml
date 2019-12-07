@@ -11,7 +11,7 @@ excludeParents = ["page"]            # default: ["page"]
 
 # Recent Posts Widget config
 [recent_posts]
-title = "Últimas postagens"           # default: "Recent Posts"
+title = "Últimas Postagens"           # default: "Recent Posts"
 length = 10                           # default: 5
 excludeTypes = ["page"]               # default: ["page"]
 
@@ -31,6 +31,6 @@ platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab
 
 # Taxonomy Cloud Widget config
 [taxonomy_cloud]
-title = ""                            # default: Plural Name for `taxonomyCloud.taxonomy`
+title = "Tags"                            # default: Plural Name for `taxonomyCloud.taxonomy`
 taxonomy = "tags"                     # default: "tags"
 shuffle = true                        # default: true

@@ -19,7 +19,7 @@ pygmentsCodefences = true
 enableEmoji = true
 
 # Missing translations will default to this content language
-# defaultContentLanguage = "pt-BR"
+defaultContentLanguage = "pt"
 
 [params.info]
 description = ""
@@ -39,9 +39,9 @@ suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "02 Jan 2006"
-listDateFormat = "2006/Jan/02"
-archiveDateFormat = "02 Jan"
+dateFormat = "02/12/2006"
+listDateFormat = "2006/01/02"
+archiveDateFormat = "02/01"
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideEntryMeta = ["page"] # boolean / array of sections
 showReadingTime = true
@@ -57,7 +57,7 @@ enable = true
 [params.widgets]
 header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-sidebar = ["about","recent_posts", "sidebar_menu","taxonomy_cloud"]
+sidebar = ["about", "recent_posts", "sidebar_menu","taxonomy_cloud"]
 footer = ["social_menu"]
 
 [params.opengraph.twitter]
@@ -118,4 +118,8 @@ hrefTargetBlank = true
 [languages.en]
 lang = "en"
 languageName = "English"
+weight = 2
+[languages.pt]
+lang = "pt-BR"
+languageName = "Português"
 weight = 1
