@@ -13,7 +13,7 @@ Estamos aqui para falar sobre TI, cotidiano, publicar poesias toscas e o que mai
 Minha experiência de trabalho escrita em [python](https://python.org):
 
 ```python
-def experiencia_profissional():
+def experiência_profissional():
   organizações = {
     '2017..ainda': 'Ministério Público do Estado do Rio Grande do Sul - MPRS',
     '2007..2017': 'Tribunal de Justiça do Estado do Rio Grande do Sul - TJRS',
@@ -24,6 +24,6 @@ def experiencia_profissional():
     print(f'Período: {período} / Organização: {nome_organização}')
 
 if __name__ == '__main__':
-  experiencia_profissional()
+  experiência_profissional()
 
 ```
